@@ -1,0 +1,4 @@
+FROM nginx:latest
+COPY ./index.html /usr/share/nginx/html/index.html 
+COPY ./ss1.jpg /usr/share/nginx/html/ss1.jpg
+COPY ./ss2.jpg /usr/share/nginx/html/ss2.jpg
